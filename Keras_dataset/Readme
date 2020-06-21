@@ -1,0 +1,28 @@
+"""   This is a supervised learning neural networks project. 
+	
+MOTIVE:	
+	The key motive of this project was to learn about the working of neural networks
+
+LIBRARIES USED:
+	Tensorflow
+	Keras
+	Matplotlib.pyplot(incase there is a need to plot the predicted images)
+	Numpy
+
+USE:
+	This project can be used for educational purposes.
+
+REQUIREMENTS:
+	A conda/virtualenv or any equivalent environment having installed the above libraries.
+
+Working:
+	In this project we are using tensorflow as a backend and importing keras fashion mnist dataset that consists of grayscale images.
+	We then divide the dataset into two sets(a training and testing set).
+	A model is trained using the training set containing training images and training labels.
+	After training model the model is tested with the test data and the accuracy is noted.
+	The model is then saved for future uses.
+
+Observations and recommendations:
+	It is observed that by increasing epochs rate the accuracy of the model can be increased but it comes at a cost of increase in training time.
+	It is also recommended to add a validation set in the system to improve its performance. 
+"""
