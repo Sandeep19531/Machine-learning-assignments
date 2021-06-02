@@ -18,5 +18,5 @@ PySocks==1.7.1
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 six==1.15.0
 soupsieve==2.0.1
-urllib3==1.25.9
+urllib3==1.26.5
 Werkzeug==1.0.1
